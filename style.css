@@ -1,5 +1,5 @@
 body {
-    background-color: green;
+    background-color: #0e7e12;
 }
 
 .card {
@@ -7,5 +7,29 @@ body {
     width: 350px;
     height: 500px;
     margin: auto;
+    margin-top: 40px;
     border-radius: 20px;
+}
+
+.head{
+    background-color: ;
+    font-size: 90px;
+    margin-left: 20px;
+}
+
+.numero{
+    background-color: ;
+    height: 300px;
+    margin: auto;
+    font-size: 150px;
+} 
+
+.footer{
+    background-color:;
+    height: 80px;
+    width: 60px;
+    font-size: 90px;
+    margin-left: 270px;
+    transform: rotate(180deg);
+
 }
