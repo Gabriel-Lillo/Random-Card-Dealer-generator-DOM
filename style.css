@@ -11,21 +11,18 @@ body {
     border-radius: 20px;
 }
 
-.head{
-    background-color: ;
+#paloU{
     font-size: 90px;
     margin-left: 20px;
 }
 
 .numero{
-    background-color: ;
     height: 300px;
     margin: auto;
     font-size: 150px;
 } 
 
-.footer{
-    background-color:;
+#paloD{
     height: 80px;
     width: 60px;
     font-size: 90px;
