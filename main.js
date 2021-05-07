@@ -1,12 +1,9 @@
-
-
 let generateNumber = () => {
-    let number = ["A", "2", "3", "4", "5", "6", "7", "8", "9","J", "K", "Q"];
+    let number = ["A", "2", "3", "4", "5", "6", "7", "8", "9","10","J", "K", "Q"];
     let inumber = Math.floor(Math.random() * number.length);
     return number[inumber];
 }
 
-// console.log (generateNumber())
 
 let generatePalos = () => {
     let palos = ["♦", "♥", "♠", "♣"];
@@ -14,9 +11,17 @@ let generatePalos = () => {
     return palos[ipalos];
 }
 
-// console.log(generatePalos())
 window.onload = () => {
     document.querySelector('.numero').innerHTML = generateNumber();
-    document.getElementsByClass('palo').innerHTML = generatePalos();
+    document.getElementById('paloU').innerHTML = randomPalos;
+    document.getElementById('paloD').innerHTML = randomPalos;
     
+}
+
+let randomPalos = generatePalos();
+
+let color = () => {
+    if (generatePalos() == '♥' || generatePalos() == '♦'){
+        generatePalos().style.color = 'red';
+    }
 }
