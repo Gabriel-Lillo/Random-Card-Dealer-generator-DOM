@@ -3,7 +3,6 @@ body {
 }
 
 .card {
-    background-color: white;
     width: 350px;
     height: 500px;
     margin: auto;
@@ -11,7 +10,7 @@ body {
     border-radius: 20px;
 }
 
-#paloU{
+#palo1{
     font-size: 90px;
     margin-left: 20px;
 }
@@ -22,15 +21,10 @@ body {
     font-size: 150px;
 } 
 
-#paloD{
+#palo2{
     height: 80px;
     width: 60px;
     font-size: 90px;
     margin-left: 270px;
     transform: rotate(180deg);
-
-}
-
-.palo {
-    color: red;
 }
